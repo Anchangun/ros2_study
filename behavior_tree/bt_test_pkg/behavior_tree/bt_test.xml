@@ -1,0 +1,9 @@
+<root BTCPP_format="3" main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <Sequence>
+      <SaySomething message="Hello" number="1"/>
+      <SaySomething message="{my_message}"  number="{my_number}"/>
+    </Sequence>
+  </BehaviorTree>
+</root>
+
