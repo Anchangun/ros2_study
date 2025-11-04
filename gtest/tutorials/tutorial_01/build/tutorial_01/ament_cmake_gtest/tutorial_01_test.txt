@@ -1,0 +1,18 @@
+-- run_test.py: invoking following command in '/home/ubuntu/ros2_study/gtest/tutorials/tutorial_01/build/tutorial_01':
+ - /home/ubuntu/ros2_study/gtest/tutorials/tutorial_01/build/tutorial_01/tutorial_01_test --gtest_output=xml:/home/ubuntu/ros2_study/gtest/tutorials/tutorial_01/build/tutorial_01/test_results/tutorial_01/tutorial_01_test.gtest.xml
+
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from package_name
+[ RUN      ] package_name.a_first_test
+[       OK ] package_name.a_first_test (0 ms)
+[----------] 1 test from package_name (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/ubuntu/ros2_study/gtest/tutorials/tutorial_01/build/tutorial_01/test_results/tutorial_01/tutorial_01_test.gtest.xml'
+-- run_test.py: verify result file '/home/ubuntu/ros2_study/gtest/tutorials/tutorial_01/build/tutorial_01/test_results/tutorial_01/tutorial_01_test.gtest.xml'

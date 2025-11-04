@@ -1,0 +1,107 @@
+[0.000000] (-) TimerEvent: {}
+[0.000247] (tutorial_01) JobQueued: {'identifier': 'tutorial_01', 'dependencies': OrderedDict()}
+[0.000282] (tutorial_01) JobStarted: {'identifier': 'tutorial_01'}
+[0.013038] (tutorial_01) JobProgress: {'identifier': 'tutorial_01', 'progress': 'cmake'}
+[0.013948] (tutorial_01) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ros2_study/gtest/tutorials/tutorial_01', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_study/gtest/tutorials/tutorial_01/install/tutorial_01'], 'cwd': '/home/ubuntu/ros2_study/gtest/tutorials/tutorial_01/build/tutorial_01', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.75.108 10701 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_study/gtest/tutorials'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '11'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_CA.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('PWD', '/home/ubuntu/ros2_study/gtest/tutorials/tutorial_01/build/tutorial_01'), ('SSH_CONNECTION', '192.168.75.108 10701 192.168.75.206 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.092985] (-) TimerEvent: {}
+[0.114260] (tutorial_01) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.193687] (-) TimerEvent: {}
+[0.214439] (tutorial_01) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.223934] (tutorial_01) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.296765] (-) TimerEvent: {}
+[0.346931] (tutorial_01) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.352793] (tutorial_01) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.352935] (tutorial_01) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.353005] (tutorial_01) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.356217] (tutorial_01) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.403767] (-) TimerEvent: {}
+[0.492467] (tutorial_01) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.504090] (tutorial_01) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.504453] (-) TimerEvent: {}
+[0.505123] (tutorial_01) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.507785] (tutorial_01) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.508698] (tutorial_01) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.607196] (-) TimerEvent: {}
+[0.708100] (-) TimerEvent: {}
+[0.723766] (tutorial_01) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.812175] (-) TimerEvent: {}
+[0.830017] (tutorial_01) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[0.832604] (tutorial_01) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[0.835432] (tutorial_01) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.914036] (-) TimerEvent: {}
+[0.974686] (tutorial_01) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.976917] (tutorial_01) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.019171] (-) TimerEvent: {}
+[1.094075] (tutorial_01) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.095445] (tutorial_01) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.119673] (-) TimerEvent: {}
+[1.182282] (tutorial_01) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.187703] (tutorial_01) StdoutLine: {'line': b'-- Generating done\n'}
+[1.191797] (tutorial_01) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ros2_study/gtest/tutorials/tutorial_01/build/tutorial_01\n'}
+[1.198137] (tutorial_01) CommandEnded: {'returncode': 0}
+[1.199587] (tutorial_01) JobProgress: {'identifier': 'tutorial_01', 'progress': 'build'}
+[1.199617] (tutorial_01) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_study/gtest/tutorials/tutorial_01/build/tutorial_01', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_study/gtest/tutorials/tutorial_01/build/tutorial_01', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.75.108 10701 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_study/gtest/tutorials'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '11'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_CA.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('PWD', '/home/ubuntu/ros2_study/gtest/tutorials/tutorial_01/build/tutorial_01'), ('SSH_CONNECTION', '192.168.75.108 10701 192.168.75.206 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.222900] (-) TimerEvent: {}
+[1.277848] (tutorial_01) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[1.286877] (tutorial_01) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[2.153484] (-) TimerEvent: {}
+[2.226363] (tutorial_01) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[2.253740] (-) TimerEvent: {}
+[2.300575] (tutorial_01) StdoutLine: {'line': b'[ 50%] Built target gtest_main\n'}
+[2.361226] (-) TimerEvent: {}
+[2.464389] (-) TimerEvent: {}
+[2.568950] (-) TimerEvent: {}
+[2.672523] (-) TimerEvent: {}
+[2.776404] (-) TimerEvent: {}
+[2.880418] (-) TimerEvent: {}
+[2.983797] (-) TimerEvent: {}
+[3.090859] (-) TimerEvent: {}
+[3.195723] (-) TimerEvent: {}
+[3.305474] (-) TimerEvent: {}
+[3.408692] (-) TimerEvent: {}
+[3.509512] (-) TimerEvent: {}
+[3.616272] (-) TimerEvent: {}
+[3.718654] (-) TimerEvent: {}
+[3.824075] (-) TimerEvent: {}
+[3.927695] (-) TimerEvent: {}
+[4.040684] (-) TimerEvent: {}
+[4.147014] (-) TimerEvent: {}
+[4.251995] (-) TimerEvent: {}
+[4.354769] (-) TimerEvent: {}
+[4.458127] (-) TimerEvent: {}
+[4.561797] (-) TimerEvent: {}
+[4.665014] (-) TimerEvent: {}
+[4.769384] (-) TimerEvent: {}
+[4.995690] (-) TimerEvent: {}
+[5.010349] (tutorial_01) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[5.096186] (-) TimerEvent: {}
+[5.100071] (tutorial_01) StdoutLine: {'line': b'[ 66%] Built target gtest\n'}
+[5.131449] (tutorial_01) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_01_test.dir/test/tutorial_test.cpp.o\x1b[0m\n'}
+[6.151219] (-) TimerEvent: {}
+[6.243665] (tutorial_01) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable tutorial_01_test\x1b[0m\n'}
+[6.261961] (-) TimerEvent: {}
+[6.365832] (-) TimerEvent: {}
+[6.443831] (tutorial_01) StdoutLine: {'line': b'[100%] Built target tutorial_01_test\n'}
+[6.465968] (-) TimerEvent: {}
+[6.469090] (tutorial_01) CommandEnded: {'returncode': 0}
+[6.470885] (tutorial_01) JobProgress: {'identifier': 'tutorial_01', 'progress': 'install'}
+[6.493872] (tutorial_01) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_study/gtest/tutorials/tutorial_01/build/tutorial_01'], 'cwd': '/home/ubuntu/ros2_study/gtest/tutorials/tutorial_01/build/tutorial_01', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.75.108 10701 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_study/gtest/tutorials'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm'), ('XDG_SESSION_ID', '11'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'a4'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_CA.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('PWD', '/home/ubuntu/ros2_study/gtest/tutorials/tutorial_01/build/tutorial_01'), ('SSH_CONNECTION', '192.168.75.108 10701 192.168.75.206 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.512501] (tutorial_01) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.514977] (tutorial_01) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_study/gtest/tutorials/tutorial_01/install/tutorial_01/share/ament_index/resource_index/package_run_dependencies/tutorial_01\n'}
+[6.515182] (tutorial_01) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_study/gtest/tutorials/tutorial_01/install/tutorial_01/share/ament_index/resource_index/parent_prefix_path/tutorial_01\n'}
+[6.515824] (tutorial_01) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_study/gtest/tutorials/tutorial_01/install/tutorial_01/share/tutorial_01/environment/ament_prefix_path.sh\n'}
+[6.516047] (tutorial_01) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_study/gtest/tutorials/tutorial_01/install/tutorial_01/share/tutorial_01/environment/ament_prefix_path.dsv\n'}
+[6.516134] (tutorial_01) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_study/gtest/tutorials/tutorial_01/install/tutorial_01/share/tutorial_01/environment/path.sh\n'}
+[6.516255] (tutorial_01) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_study/gtest/tutorials/tutorial_01/install/tutorial_01/share/tutorial_01/environment/path.dsv\n'}
+[6.516505] (tutorial_01) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_study/gtest/tutorials/tutorial_01/install/tutorial_01/share/tutorial_01/local_setup.bash\n'}
+[6.517034] (tutorial_01) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_study/gtest/tutorials/tutorial_01/install/tutorial_01/share/tutorial_01/local_setup.sh\n'}
+[6.517345] (tutorial_01) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_study/gtest/tutorials/tutorial_01/install/tutorial_01/share/tutorial_01/local_setup.zsh\n'}
+[6.517658] (tutorial_01) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_study/gtest/tutorials/tutorial_01/install/tutorial_01/share/tutorial_01/local_setup.dsv\n'}
+[6.517784] (tutorial_01) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_study/gtest/tutorials/tutorial_01/install/tutorial_01/share/tutorial_01/package.dsv\n'}
+[6.519682] (tutorial_01) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_study/gtest/tutorials/tutorial_01/install/tutorial_01/share/ament_index/resource_index/packages/tutorial_01\n'}
+[6.519865] (tutorial_01) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_study/gtest/tutorials/tutorial_01/install/tutorial_01/share/tutorial_01/cmake/tutorial_01Config.cmake\n'}
+[6.520128] (tutorial_01) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_study/gtest/tutorials/tutorial_01/install/tutorial_01/share/tutorial_01/cmake/tutorial_01Config-version.cmake\n'}
+[6.520261] (tutorial_01) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2_study/gtest/tutorials/tutorial_01/install/tutorial_01/share/tutorial_01/package.xml\n'}
+[6.524216] (tutorial_01) CommandEnded: {'returncode': 0}
+[6.553635] (tutorial_01) JobEnded: {'identifier': 'tutorial_01', 'rc': 0}
+[6.555028] (-) EventReactorShutdown: {}
