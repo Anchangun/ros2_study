@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/tutorial_01_test.dir/test/tutorial_test.cpp.o -o tutorial_01_test  gtest/libgtest_main.a gtest/libgtest.a -pthread 
